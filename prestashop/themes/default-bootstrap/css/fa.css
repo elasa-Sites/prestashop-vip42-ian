@@ -1,0 +1,58 @@
+/* replace 'arial' and 'sans-serif' font with another local font */
+@font-face {
+	font-family: 'arial';
+	src: local('Tahoma'),local('Arial');
+}
+@font-face {
+	font-family: 'sans-serif';
+	src: local('Tahoma'),local('Arial');
+}
+
+@font-face {
+	font-family: 'bhoma';
+	src: url('../fonts/bhoma/BHoma.eot');
+	src: url('../fonts/bhoma/BHoma.eot?#iefix') format('embedded-opentype'), url('../fonts/bhoma/BHoma.ttf') format('truetype'), url('../fonts/bhoma/BHoma.woff') format('woff');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'WYekan';
+	src: url('../fonts/yekan/YekanWeb-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'WYekan';
+	src: url('../fonts/yekan/YekanWeb-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+
+body, #page {
+	font-family: 'WYekan' , 'arial';
+	font-size: 13px;
+}
+
+.price,.price.product-price, .old-price, .product-price, .price-percent-reduction, .our_price_display, #reduction_percent_display, #old_price_display, .price-discount,
+#cart_summary tfoot td.total_price_container span,
+#cart_summary tfoot td#total_price_container {
+
+	font-family: 'Bhoma', 'Arial';
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: 'Bhoma', 'Arial' !important;
+}
+
+#home-page-tabs > li a, .block tle_block, .block h4, .page-heading, .page-subheading,
+h3.page-product-heading, .footer-container #footer h4, .cart_voucher h4, #pagenotfound .pagenotfound h1,
+#pagenotfound .pagenotfound p, #facebook_block h4, #cmsinfo_block h3, #center_column .page_product_box h3, #instant_search_results a.close, .page-heading span.heading-counter,
+.block .products-block .price-percent-reduction, .sale-label, .new-label,
+.price-percent-reduction.small, .button.lnk_view, .button.ajax_add_to_cart_button,
+.button.button-small, .product-heading-h5 {
+
+	font-family: 'WYekan', 'Arial' !important;
+	
+}
